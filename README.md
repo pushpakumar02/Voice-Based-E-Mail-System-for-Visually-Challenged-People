@@ -149,10 +149,240 @@ Our contributions are summarized as follows:
 3. GTTS (Google Text-to-Speech) library in Python. This platform-independent module automatically produces an audio file while accepting input in text format along with language and speed parameters. It also reads out messages in emails for the user.
 4. The SMTP (Simple Mail Transfer Protocol) module is imported using the keyword smtplib. It is used to connect to Gmail and compose emails, acting as a connection to Gmail to perform other functions as well.
 
-##System Architecture
+## System Architecture
 <img src="https://github.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/blob/main/images/System%20Architecture.png" />
 
+## Data Flow Diagram
+<img src="https://github.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/blob/main/images/Data%20Flow%20Diagram.png" />
 
+# Python Libraries Used
 
+The proposed system utilizes several Python libraries to implement various functionalities. Here is a list of the libraries used along with their descriptions:
+
+1. **SpeechRecognition**
+    - SpeechRecognition is a Python library used for speech recognition, which is essential for many day-to-day applications like home automation and artificial intelligence.
+    - It enables the conversion of speech to text and is compatible with microcontrollers such as Raspberry Pi when used with an external microphone.
+
+2. **Pyglet**
+    - Pyglet is a powerful library for developing visually rich GUI applications such as games and multimedia on Windows, macOS, and Linux.
+    - It supports various features including windowing, user interface event handling, OpenGL graphics, loading images and videos, and playing sounds and music.
+    - Pyglet does not require external dependencies or installations, making distribution and installation simpler.
+
+3. **BeautifulSoup4**
+    - BeautifulSoup4 is a Python library used for web scraping or web data extraction.
+    - It allows parsing HTML content and extracting useful information from websites, making it suitable for various applications including data mining and web automation.
+
+4. **gTTS (Google Text-to-Speech)**
+    - gTTS is an easy-to-use tool for converting text to audio, commonly known as the Google Text-to-Speech API.
+    - It supports multiple languages and audio speeds, allowing users to generate audio files in mp3 format from input text.
+
+5. **PyAudio**
+    - PyAudio is a Python binding for PortAudio, a cross-platform library for audio input and output.
+    - It enables recording and playing sound across different platforms such as Windows, macOS, and Linux, making it suitable for various audio applications.
+
+## Speech Recognition
+
+Speech Recognition is crucial for converting spoken language into text, enabling interaction with the system through voice commands.
+
+## Pyglet
+
+Pyglet is a powerful library for developing visually rich GUI applications like games and multimedia.
+
+## BeautifulSoup4
+
+BeautifulSoup4 is used for web scraping, allowing the extraction of useful information from HTML content.
+
+## gTTS (Google Text-to-Speech)
+
+gTTS is used for converting text into audio, providing an easy-to-use tool for generating audio files from input text.
+
+## PyAudio
+
+PyAudio enables audio input and output, facilitating tasks like recording and playing sound across different platforms.
+
+---
+
+## Modules
+
+The proposed system consists of several modules to perform various tasks:
+
+1. **Login Module**
+    - This module handles user authentication by verifying the username and password.
+    - Users can register, login, and reset their passwords.
+    - Face recognition is used for additional security.
+
+2. **Voice Validation**
+    - Voice authentication verifies a user based on their unique biometric characteristics, enhancing security.
+    - It utilizes neural networks for accurate voice authentication.
+
+3. **Speech to Text**
+    - This module converts speech input into text, allowing users to interact with the system through voice commands.
+    - It uses the SpeechRecognition library for speech-to-text conversion.
+
+4. **Dashboard Creation**
+    - A dashboard is created to display various types of visual data in one place, providing easy access to important information.
+    - Dashboards are highly customizable and can include key performance indicators (KPIs) and other business metrics.
+
+5. **Logout Page**
+    - This module allows users to securely log out of their email accounts.
+
+Each module serves a specific purpose in the system, contributing to its overall functionality and usability.
+
+# Techniques Used
+
+Voice authentication, text-to-speech conversion, and speech-to-text conversion are crucial techniques employed in the proposed system. Here's an overview of each technique:
+
+## 1. Voice Authentication
+
+Voice authentication, also known as voice recognition or speaker recognition, is a biometric authentication technology that identifies users based on their unique voice patterns. It involves two key types:
+
+### A. Text-dependent
+- Requires the user to speak a specific phrase or passphrase.
+- The spoken phrase is compared to a pre-recorded sample.
+- Used for hands-free mobile authentication, IVR systems, and web applications.
+
+### B. Text-independent
+- Does not require a specific phrase for authentication.
+- Analyzes various voice characteristics for identification.
+- More convenient but requires longer training and testing samples.
+- Useful for call centers, IoT devices, and web applications.
+
+### Working of Voice Authentication
+- Initial template creation: Templates are created from speech samples for identification.
+- Voiceprint extraction: Unique characteristics of a person's speech are extracted.
+- Comparison: The voiceprint is compared to stored templates for authentication.
+- Voice authentication ensures secure access to systems using unique voice patterns.
+
+### Uses of Voice Authentication
+1. **Mobile applications:** Hands-free authentication for mobile devices.
+2. **Call centers and IVR systems:** Secure authentication during customer support calls.
+3. **Web applications:** Web-based authentication for banking and e-commerce.
+4. **Internet of things (IoT):** Secure access to IoT devices using voice.
+
+### Challenges of Voice Authentication
+1. **Authentication through audio deep fakes:** Deep fakes pose a threat to voice authentication systems.
+2. **Lack of accuracy:** Background noise can affect authentication accuracy.
+3. **Text to Speech Conversion:** Challenges in converting text to speech accurately.
+
+## 2. Text to Speech (TTS) Conversion
+
+Text to Speech (TTS) conversion is a technology that converts written text into spoken language. It enables users, especially visually impaired individuals, to access and comprehend digital content more easily.
+
+### Working of Text to Speech Conversion
+- Text input: Written text is provided as input to the TTS system.
+- Conversion: The system converts the text into spoken language using algorithms.
+- Output: The converted text is outputted as speech, usually in the form of an audio file.
+
+### Uses of Text to Speech Conversion
+- **Accessibility:** Provides access to digital content for visually impaired individuals.
+- **Educational tools:** Assists in learning and comprehension.
+- **Global education system:** Aids in delivering educational content globally.
+
+## 3. Speech to Text (STT) Conversion
+
+Speech to Text (STT) conversion is the process of converting spoken language into written text. It enables users to interact with systems and devices through voice commands.
+
+### Working of Speech to Text Conversion
+- Speech input: Spoken language is provided as input to the STT system.
+- Recognition: The system recognizes and transcribes the spoken language into text.
+- Output: The transcribed text is outputted for further processing or action.
+
+### Uses of Speech to Text Conversion
+- **Voice commands:** Interacting with systems and devices using voice.
+- **Dictation software:** Converting spoken words into text for documentation.
+- **Phone applications:** Enabling voice input for various applications.
+
+Each of these techniques plays a crucial role in the proposed system, enhancing accessibility and usability for users.
+
+# Experimental Setup
+
+The proposed system utilizes various techniques and modules to enable accessibility and usability for visually challenged individuals. Here's an overview of the experimental setup:
+
+## A. Speech-to-Text with Artificial Intelligence
+
+Google Cloud Speech-to-Text is used to convert spoken language into text. It provides a robust API with neural network models supporting 120 languages. However, it struggles with streaming or pre-recorded audio.
+
+## B. Text to Speech (TTS) Conversion
+
+Text to Speech conversion is utilized to convert written text into spoken language. It acts as an automatic verbalizer, providing a human-like voice output.
+
+### Structure of a Text-to-Speech Unification System
+
+The synthesis of text involves several stages:
+- **Text Processing:** This stage involves tokenizing the text and analyzing token types.
+- **Prosody Generation:** Prosody, including inflection factors, phrasing, and accentuation, is generated to provide natural speech.
+
+## C. Processing of Natural Language
+
+This module processes language, focusing on prosody and text analysis.
+
+## D. Digital Signal Processing
+
+Digital Signal Processing converts representative data into audible speech.
+
+## Implementation
+
+### Procedure
+The proposed system aims to make email accessible to visually challenged individuals and society as a whole. The system prioritizes user-friendliness for all users, including visually impaired and illiterate individuals.
+1. **Registration:** Users register through a form, assisted by voice commands.
+2. **Login:** Users log in by speaking their username and password, which is converted from speech to text for authentication.
+3. **Accessing Services:** After successful login, users can access various sections like Compose, Inbox, and Sent Mail.
+4. **Navigation:** The system prompts users to perform specific operations to access various services, and users interact using voice commands.
+
+The system focuses on providing a seamless experience for all users, ensuring accessibility and usability.
+
+## Output Screenshot
+<img src="https://github.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/blob/main/images/Output_Screenshot.png" />
+
+| SR NO. | EXISTING SYSTEM                                 | PROPOSED SYSTEM                                |
+|--------|------------------------------------------------|------------------------------------------------|
+| 1.     | Less security.                                 | High Security provided.                        |
+| 2.     | Depends on Keyboard.                           | The entire structure is based on IVR - Interactive Voice Response. |
+| 3.     | Slow processing.                               | Faster and more efficient.                     |
+| 4.     | The disables cannot use the normal mail system. | The disables can use the normal mail system.  |
+| 5.     | Blind people are not being able to interact with the web based email system. | They will be able to interact with the web based email system. |
+| 6.     | It is insecure in comparison to the progressive system. | It has high security, which makes it more trustable. |
+| 7.     | The keyboard is mandatory in this system.      | Because the system is based on IVR (Interactive Voice Response), a keyboard is not required. |
+| 8.     | Time-consuming process (Slow execution).       | It is more efficient and faster than a typical system. |
+| 9.     | The only person without disabilities can use the system. | Both normal and disabled people can use the system. |
+| 10.    | People who are blind are unable to engage with others or use the web-based email system. | The web-based email system will allow blind individuals to engage with it (using voice commands). |
+
+## Authentication and Security
+
+Users with account information such as passwords and usernames are provided due to authentication, ensuring that the user has the right password and username every time they need to sign in to the app. Therefore, this data should be stored in a database for future comparison. For identification, we will apply the control system to the user. Keeping a password straight may be dangerous: Keeping a password straight can be dangerous and a simple and easy way to keep the password simple and show them how to create a table in the database. When the user login request arrives, the server will be called in to see the live load to store the username and password. This information will then be redirected to the password stored in the database. Finally, if the game is successful, the user will be able to access the app. Only passwords stored in plain text can be dangerous and will remain open to attack. With cybercrime, the government steals passwords, and you can block the account. However, one way to save it is to save it by converting it into a non-convertible form and a real password. This process is called hashing.
+
+## Future Scope
+
+There is wide future scope of this system; many enhancements can be done in the system such as including different languages, including functionality of accessing the deleted mails and spam mails. Also, this system can be enhanced such that it can also send attachments which are more beneficial for visually challenged people. This system can be made available to all regional people who are not educated enough and inclusion of different languages will make this system easily accessible. Furthermore, sign language system can also be integrated with the system to make the system more scalable and robust.
+
+## Conclusion
+
+In our Project we proposes a system that will be beneficial for society by allowing disable people also to grow along with society. This project makes visually challenged people able enough to be part of growing digital India by allowing them to communicate via internet and also making life of such people much easier. This system overcomes many drawbacks that were faced by visually challenged people such as sending and receiving emails. Success of this project can make an impact on developers motivating them to make something useful that can help visually challenged or blind people. We have proposed a system which will help the visually impaired people to access email services efficiently. This system will help overcome the drawbacks that were earlier faced by the blind people in accessing emails. We have eliminated the using of keyboard shortcuts along with screen readers which will help reducing the cognitive load of remembering keyboard shortcuts. Also, any naive user who does not know the location of keys on the keyboard need not worry as keyboard usage eliminated. The user only needs to follow the instructions given by the IVR and use mouse clicks accordingly to get the respective services offered.
+
+## References
+
+1. Parkhi Bhardwaj, Gunjan Sethi. "Voice Based E-mail System for Visually Impaired: A Review". International Research Journal of Engineering and Technology (IRJET) on December, volume 12. Posted: 2020.
+2. John Klensin, Ned Freed, Marshall, T Rose, Einar, A Stefferud, Dave Crocker. "SMTP Service Extensions". IETF. Posted: 1995-11.
+3. K Jayachandran, P Anbunami. "Voice Based Email for Blind People". Published in International Journal of Engineering and Technology. Posted: 2018.
+4. Carmel Mary, Belinda, Rupavathy N Mahalakshmi, N. "Voice based e-mail System for Visually Impaired". Published in International Journal of Engineering and Technology. Posted: 2018.
+5. A Mamatha, V Jade, J Saravana, A Purshotham, A V Suhas. "Voice Based E-mail System for Visually Impaired". International Journal of Research in Engineering. Posted: 2020.
+6. A Belekar, S Sunka, N Bhawar, S Bagade. "Voice Based E-mail for The Visually Impaired".
+7. Al Smadi, Takialddin, et al. "Artificial intelligence for speech recognition based on neural networks". Journal of Signal and Information Processing 6.02 (2015): 66.
+8. Lazar, Jonathan, et al. "What frustrates screen reader users on the web: A study of 100 blind users". International Journal of Human-Computer Interaction 22.3 (2007): 247-269.
+9. December, John. "Units of analysis for Internet communication". Journal of Computer-Mediated Communication 1.4 (1996): JCMC143.
+10. Pathan, Naziya, et al. "V-Mail (Voice Based E-Mail Application)" (2019).
+11. Symons, Gary Mark, and Kirk David Symons. "Digital media editing interface using a supercursor for selecting media clips for editing". U.S. Patent No. 8,527,879. 3 Sep. 2013.
+12. Shabana, T., et al. "Voice based email system for blinds". International Journal of Advance Foundation And Research In Science & Engineering (IJAFRSE) Volume 1 (2015).
+13. Al Smadi, Takialddin, et al. "Artificial intelligence for speech recognition based on neural networks". Journal of Signal and Information Processing 6.02 (2015): 66.
+14. Senders, Joeky T., et al. "Natural and artificial intelligence in neurosurgery: a systematic review". Neurosurgery 83.2 (2018): 181-192.
+15. Collobert, Ronan, et al. "Natural language processing (almost) from scratch". Journal of Machine Learning Research 12.Aug (2011): 2493-2537.
+16. G. O. Young. "Synthetic structure of industrial plastics (Book style with paper title and editor)". In Plastics, 2nd ed. vol. 3, J. Peters, Ed. New York: McGraw-Hill, 1964, pp. 15–64.
+17. The Radicati website. "Email Statistics Report, 2014-2018". Available: http://www.radicati.com/wp/wpcontent/uploads/2014/01/EmailStatisticsReport-20142018-Executive-Summary.pdf.
+18. Ingle, Pranjal, Harshada Kanade, and Arti Lanke. "Voice based e-mail System for Blinds". International Journal of Research Studies in Computer Science and Engineering (IJRSCSE) (2016): 25-30.
+19. Isewon, Itunuoluwa, O. J. Oyelade, and O. O. Oladipupo. "Design and implementation of text to speech conversion for visually impaired people". International Journal of Applied Information Systems 7.2 (2012): 26-30.
+20. Shakhovska, N., O. Basystiuk, and K. Shakhovska. "Development of the speech-to-text chatbot interface based on Google API". CEUR Workshop Proceedings. Vol. 2386. 2019.
+21. Juniper Networks. "IPsec Authentication Solutions". Available: https://www.juniper.net/documentation/en_US/junos/topics/concept/ipsec-authentication-solutions.html.
+22. Arlinghaus, Robert, et al. "Understanding the complexity of catch-and-release in recreational fishing: an integrative synthesis of global knowledge from historical, ethical, social, and biological perspectives". Reviews in Fisheries Science 15.1-2 (2007): 75-167.
+23. Cole, Ron, et al. "The challenge of spoken language systems: Research directions for the nineties". IEEE transactions on Speech and Audio processing 3.1 (1995): 1-21.
 
 
