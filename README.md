@@ -85,6 +85,50 @@
 | 33          | The non-functional requirements of the project |
 | 34          | Details of Technology |
 
+| CHAPTER NO: | TABLE OF CONTENT                  |
+|-------------|-----------------------------------|
+| 1           | Abstract                          |
+| 2           | International Economic Review     |
+| 3           | Introduction                      |
+| 4           | Objectives                        |
+| 5           | Literature Survey                 |
+|             | - Sharma and mittal in their study “prospects of e-commerce in India”. |
+|             | - Miyazaki and fernandez (2001)  |
+|             | - Samadi and ali (2010)          |
+|             | - Abhijit  mitra                  |
+|             | - D.k.Gangeshwar                  |
+|             | - Martin dodge                    |
+|             | - Vijay  govindarajan            |
+| 2.1         | Research methodology:             |
+| 11          | Research Design:                  |
+| 12          | Sampling Design and Data Collection: |
+| 13          | Statistical Tools:                |
+| 14          | Data analysis:                    |
+| 15          | Information Search                |
+| 16          | ShopBots                          |
+| 17          | Branding and Uniformity among Products |
+| 18          | Branding and Distinction among Vendors |
+| 19          | The Role of Ignorance            |
+| 20          | Research Focus                    |
+| 21          | Implications                      |
+|             | - Customer Relationship Management (CRM) |
+|             | - Patronage Loyalty               |
+|             | - Database Marketing              |
+|             | - Special Loyalty Programs        |
+|             | - Frequency Marketing             |
+|             | - Affinity Marketing              |
+|             | - Customer Lifetime Value         |
+|             | - Corrective Action Plans         |
+| 30          | Existing System                   |
+| 31          | Proposed System                   |
+|             | Scope of the Project              |
+| 1.1         | Requirements                      |
+|             | - Hardware Requirements:          |
+|             | - Software Requirements:          |
+| 32          | The functional requirements of the project are |
+| 33          | The non-functional requirements of the project |
+| 34          | Details of Technology             |
+
 
 ## Abstract:
 We have seen that the inception of the Internet has dramatically revolutionized many fields. The Internet has made the life of people so easy that people today have access to any information they want sitting in their homes. One of the main fields that the Internet has revolutionized is communication. When talking about communication over the Internet, the first thing that comes to our mind is E-mail. 
