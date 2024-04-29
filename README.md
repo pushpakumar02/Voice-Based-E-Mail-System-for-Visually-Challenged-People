@@ -82,3 +82,49 @@ The number of blind people is rapidly increasing, so the research's main goal is
 You can use the Viterbi method, as well as the voice-to-text and text-to-speech converters. The computational rule that works with the technology does not determine it to be the most acceptable word; yet, as soon as the user says it, it is spoken as your guessed word for a particular word. The user creates an account on the site that they are visiting or the first time. This system will mitigate some of the present system's drawbacks. Sorry, but the Viterbi algorithm's efficiency in reducing the number of errors will increase, requiring more space.  
 A solution for the blind and illiterate to better their interaction with the email system is proposed in. This technique eliminates the need for screen readers and Braille keyboards while using IVR technology. Speech-to-text and text-to-speech conversions were utilized there. Voice instructions are also employed for a variety of different tasks. Your identity, email address, and password can all be used to register. This is the ability to use the function that instructs PHP to send an email. This is the email library from which you can send an email. The IMAP server is used to retrieve the user's email. To find email collection boxes.
 
+# Voice Based Technology for the Blind
+
+## Literature Review
+
+Pranjal Ingle et al. (2016) [1] utilized three types of technologies to create the application, namely STT (speech-to-text) where speech is converted to text, TTS (text-to-speech) to convert text to speech, and IVR (interactive voice response) which describes the interaction between the user and the technology in many ways like keyboard or voice message. It also allows the user to interact with the mail system. The main disadvantage includes the usage of high sensitive mics which are mostly not available to all the users.
+
+Jain. V. et al. (2021) [2], proposed a voice-based email system that visually impaired people can use to easily access email. With the aid of technology, this initiative aims to assist blind people in sending and receiving voice mails. The advancements in text-to-voice email delivery for people who are blind or visually impaired are the main topic of this study. This study offers a text-to-voice and voice-to-text email access method for those who are blind. This enables persons who are blind to send mail using voice control instead of a keypad.
+
+Divesh Jethani et al. (2018) [3] proposed a voice-based system for the visually blind with multi-lingual facility. The system provides a good GUI for all types of users. The user will be able to send, receive, read, and delete mail from the mail system. But the main disadvantage includes the usage of mouse clicks, which is necessary at some places of the proposed application.
+
+Dr. S. Brintha et al. [4] proposed a system with TTS and STT to read and record symbolic linguistic representations like phonetic transcriptions. The architecture of the system includes two modules namely interface selection and mailing option, the first module selects the type of users that is blind user or sighted user. And the second module includes the simple mailing options to perform all tasks.
+
+Parkhi Bhardwaj et al. (2016) [5] uses an extra speech recognition technology along with all other converters and IVR to develop the application. The proposed system provides more features than existing GUI. Java was the core programming language used. The application can be used by all types of handicapped people and illiterate people.
+
+## Summary of the Literature Survey
+
+Various technologies to develop a voice-based E-Mail system were discussed in the literature survey. Since existing systems like screen readers have some disadvantages, the proposed work in this model takes the best advantage of technology to use features which have the highest accuracy in capturing voice and displaying contents needed by visually impaired people.
+
+## Requirements
+
+### Hardware Requirements:
+- Intel Processor
+- At least 2 GB RAM
+- At least 60 GB of Usable Hard Disk Space
+- Microphone and Speaker
+
+### Software Requirements:
+- Python 3.x
+- Pip to install Packages
+- Pycharm Community Edition
+- Windows Operating System
+
+## Functional Requirements
+
+The input/output in this software is in the form of forms, speech, and gestures. The data is saved in tables in a database, which is where the storage process takes place. The computation is done via queries, APIs, and procedures that are designed to take as little time as possible. The user will initially register with the system so that he or she can log in later, similar to how a naive person would do with an existing Gmail account. After successfully registering and logging in, the user will be sent to the main menu, which includes operations like compose, inbox, and trash. After selecting a specific operation, the user will finish the operation by performing the related activities. Finally, the API will conduct tasks by connecting to Google's email account. The data flow diagram depicts the flow of a set of data in accordance with a specific information system paradigm. It's used to sketch out a data system's design and structure without providing processing time alternatives in order, such as yes or no choices in traditional flow chat time.
+
+## Contents
+
+Although our culture blames those who are blind for these reasons, the visually impaired may now use the Internet thanks to a range of dependable and efficient technology. As a result, we have developed this design concept for a voicemail system that is email-friendly and can be used by an eyeless person in order to advance society and grant similar especially suitable people an equal status and respect. This gives blind people the ability to send and receive messages using voice commands. Other visual enhancements or a keyboard are not necessary for this system. This is based on the usage of STS and TTS transformers, or speech to text and text to speech, respectively, for translating spoken words into written and audible forms. The person utilizing this method wouldn't have any prior knowledge of the keyboard's layout, the alphabet's positions, or the locations of the keys. The user will respond after being automatically fed voice commands to carry out certain actions by the system. The user merely needs to correctly follow the directions that the system offers. With the use of voice commands and the suggested technology, visually impaired persons might access emails on their own.
+
+## Overview
+
+The internet has become one of the desired or practical things for daily life. By gaining access to information, facilitating interpersonal interactions, and growing enterprises and associations, it has made people's lives more comfortable. The internet becomes the first luxury for a 24-hour lifestyle. Everyone who uses the data and information on the internet. People's lives are made simpler when they use the internet for communication. The internet has significantly altered the realms of communication. Global e-mail drug users were four billion in 2021, and the figure is expected to rise to 4.6 billion by 2025. In 2021, there were over 306 billion emails sent and received per day globally. For sharing and inputting sensitive or private information, electronic correspondence communication has shown to be the most secure and safest method. To utilise the Internet, a person must meet the prerequisite of being able to see, which is a need that must be satisfied. Because surfing the internet involves visual sense, it has become a scourge for those who are visually impaired. More than 250 million individuals, according to a check, do not know how to use email or internet installations for communication. The only way an eyeless person can utilise all these internet features is if they dictate the entire material to a third party who isn't visually impaired. The third party will then send, receive, and read out the messages at the visually impaired person's request. Although the average person assists the blind in accessing their mail, that isn't the best method to approach the problem. Because the visually impaired individual demands assistance whenever he or she can find it.
+
+
+
