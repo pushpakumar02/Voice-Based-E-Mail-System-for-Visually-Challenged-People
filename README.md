@@ -1,5 +1,91 @@
 # Voice Based E-mail for Visually Challenged People
 
+| CHAPTER NO: | TABLE OF CONTENT |
+|-------------|------------------|
+| 1           | [Abstract](#abstract)         |
+| 2           | [Introduction](#introduction)     |
+| 3           | [Problem Definition:](#problem-definition) |
+| 4           | [Existing System](#existing-system)  |
+| 5           | [Proposed System](#proposed-system)  |
+| 6           | [Literature Survey](#literature-survey) |
+| 7           | [Requirements](#requirements)     |
+|             | - [Hardware Requirements:](#hardware-requirements) |
+|             | - [Software Requirements:](#software-requirements) |
+|             | - [Functional Requirements:](#functional-requirements) |
+| 8           | [Contents](#contents)         |
+|             | - [Overview](#overview)       |
+|             | - [Research challenges](#research-challenges) |
+|             | - [Objectives](#objectives)     |
+|             | - [Scope of the project](#scope-of-the-project) |
+|             | - [Contributions](#contributions)  |
+| 9           | [System Architecture](#system-architecture) |
+|             | - [Data Flow Diagram](#data-flow-diagram) |
+| 10          | [Python Libraries Used](#python-libraries-used) |
+| 11          | [Steps involved in web scraping:](#steps-involved-in-web-scraping) |
+| 12          | [Modules](#modules)          |
+|             | 1) [Login Module](#login-module)  |
+|             | 2) [Validate the voice.](#validate-the-voice) |
+|             | 3) [Speech to Text](#speech-to-text) |
+|             | 4) [Creating Dashboard for,](#creating-dashboard-for) |
+|             | 5) [Compose a Mail](#compose-a-mail) |
+|             | 6) [Read Inbox Mails](#read-inbox-mails) |
+|             | 7) [Read Sent Mails](#read-sent-mails) |
+|             | 8) [Log out Page](#log-out-page)  |
+| 13          | [Techniques Used](#techniques-used)  |
+|             | 1. [Voice Authentication](#voice-authentication) |
+|             | 2. [Text to Speech Conversion](#text-to-speech-conversion) |
+| 14          | [Implementation](#implementation)   |
+| 15          | [Comparison of Existing and Proposed System](#comparison-of-existing-and-proposed-system) |
+| 16          | [Authentication and security](#authentication-and-security) |
+| 17          | [Future Scope](#future-scope)     |
+| 18          | [Conclusion](#conclusion)       |
+| 19          | [References](#references)       |
+
+| CHAPTER NO: | TABLE OF CONTENT |
+|-------------|------------------|
+| 1           | Abstract         |
+| 2           | International Economic Review |
+| 3           | Introduction     |
+| 4           | Objectives       |
+| 5           | Literature Survey |
+|             | - Sharma and mittal in their study “prospects of e-commerce in India”. |
+|             | - Miyazaki and fernandez (2001) |
+|             | - Samadi and ali (2010) |
+|             | - Abhijit  mitra |
+|             | - D.k.Gangeshwar |
+|             | - Martin dodge |
+|             | - Vijay  govindarajan |
+| 2.1         | Research methodology: |
+| 11          | Research Design: |
+| 12          | Sampling Design and Data Collection: |
+| 13          | Statistical Tools: |
+| 14          | Data analysis: |
+| 15          | Information Search |
+| 16          | ShopBots |
+| 17          | Branding and Uniformity among Products |
+| 18          | Branding and Distinction among Vendors |
+| 19          | The Role of Ignorance |
+| 20          | Research Focus |
+| 21          | Implications |
+| 21          | Customer Relationship Management (CRM) |
+| 23          | Patronage Loyalty |
+| 24          | Database Marketing |
+| 25          | Special Loyalty Programs |
+| 26          | Frequency Marketing |
+| 27          | Affinity Marketing |
+| 28          | Customer Lifetime Value |
+| 29          | Corrective Action Plans |
+| 30          | Existing System |
+| 31          | Proposed System |
+|             | Scope of the Project |
+| 1.1         | Requirements |
+|             | - Hardware Requirements: |
+|             | - Software Requirements: |
+| 32          | The functional requirements of the project are |
+| 33          | The non-functional requirements of the project |
+| 34          | Details of Technology |
+
+
 ## Abstract:
 We have seen that the inception of the Internet has dramatically revolutionized many fields. The Internet has made the life of people so easy that people today have access to any information they want sitting in their homes. One of the main fields that the Internet has revolutionized is communication. When talking about communication over the Internet, the first thing that comes to our mind is E-mail. 
 
