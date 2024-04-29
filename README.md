@@ -149,5 +149,10 @@ Our contributions are summarized as follows:
 3. GTTS (Google Text-to-Speech) library in Python. This platform-independent module automatically produces an audio file while accepting input in text format along with language and speed parameters. It also reads out messages in emails for the user.
 4. The SMTP (Simple Mail Transfer Protocol) module is imported using the keyword smtplib. It is used to connect to Gmail and compose emails, acting as a connection to Gmail to perform other functions as well.
 
+##System Architecture
+![System Architecture]("https://github.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/blob/main/images/System%20Architecture.png")
+
+
+
 
 
