@@ -126,5 +126,28 @@ Although our culture blames those who are blind for these reasons, the visually 
 
 The internet has become one of the desired or practical things for daily life. By gaining access to information, facilitating interpersonal interactions, and growing enterprises and associations, it has made people's lives more comfortable. The internet becomes the first luxury for a 24-hour lifestyle. Everyone who uses the data and information on the internet. People's lives are made simpler when they use the internet for communication. The internet has significantly altered the realms of communication. Global e-mail drug users were four billion in 2021, and the figure is expected to rise to 4.6 billion by 2025. In 2021, there were over 306 billion emails sent and received per day globally. For sharing and inputting sensitive or private information, electronic correspondence communication has shown to be the most secure and safest method. To utilise the Internet, a person must meet the prerequisite of being able to see, which is a need that must be satisfied. Because surfing the internet involves visual sense, it has become a scourge for those who are visually impaired. More than 250 million individuals, according to a check, do not know how to use email or internet installations for communication. The only way an eyeless person can utilise all these internet features is if they dictate the entire material to a third party who isn't visually impaired. The third party will then send, receive, and read out the messages at the visually impaired person's request. Although the average person assists the blind in accessing their mail, that isn't the best method to approach the problem. Because the visually impaired individual demands assistance whenever he or she can find it.
 
+# Research Challenges
+
+Emailing doesn't pose a significant challenge to individuals with sight, but it presents considerable difficulties for those without sight due to its interference with work obligations. Audio-based emails are preferred by those without eyes, as they can easily reply to spoken commands. However, there are fewer options available for making this audio-based email accessible to the blind. This voice-based email system is helpful for those without eyes, as it enables them to understand their location. However, users need to remember mouse clicks and keyboard shortcuts, which can pose usability challenges for all users, including the blind. The system is limited to desktop computers and occasionally struggles to properly decode content. Future updates to the system's UI may include new functionality.
+
+## Objectives
+
+The primary goal of this article is to create a voice-based emailing system that enables visually impaired and illiterate persons to use everyday technologies like sending and receiving emails and accessing the internet. With this system, blind users may easily log in by speaking. The main aim of developing this system is to increase the sense of community among those who are blind or visually impaired. Users of all ages can easily access the email system. In the future, this technology may be improved and used for additional services, such as texting and using voice commands to operate other applications, in addition to email.
+
+## Scope of the Project
+
+The development of computer-based accessible solutions has provided many new opportunities for the blind and visually impaired globally. However, utilizing these solutions involves visual sight, making it extremely difficult for visually impaired individuals to use them. The proposed system addresses the weaknesses of the current system. Unlike current systems, the proposed approach is voice command anchored, making it more accessible. The availability of the suggested system is a crucial factor taken into consideration, as it is completely different from the present system.
+
+Python is used to implement the requested task. The focus is on providing basic features like creating, reading, transferring, and reading emails using voice-based instructions. Our method is favorable to all individuals, whether normal, visually handicapped, or illiterate, whereas the current system concentrates more on normal people.
+
+## Contributions
+
+Our contributions are summarized as follows:
+
+1. The STT (Speech-to-Text) module converts recognized speech through the microphone to text and stores it in a variable. Alternatively, it throws an exception.
+2. The TTS (Text-to-Speech) module converts text to audio in .mp3 format and plays the created file.
+3. GTTS (Google Text-to-Speech) library in Python. This platform-independent module automatically produces an audio file while accepting input in text format along with language and speed parameters. It also reads out messages in emails for the user.
+4. The SMTP (Simple Mail Transfer Protocol) module is imported using the keyword smtplib. It is used to connect to Gmail and compose emails, acting as a connection to Gmail to perform other functions as well.
+
 
 
