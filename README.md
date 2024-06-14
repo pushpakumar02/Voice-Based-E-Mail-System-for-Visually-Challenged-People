@@ -237,12 +237,12 @@ Our contributions are summarized as follows:
 4. The SMTP (Simple Mail Transfer Protocol) module is imported using the keyword smtplib. It is used to connect to Gmail and compose emails, acting as a connection to Gmail to perform other functions as well.
 
 ## System Architecture
-<img src="https://raw.githubusercontent.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/main/images/System%20Architecture.png" alt="System Architecture" />
+<img src="https://raw.githubusercontent.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/main/images/System%20Architecture.png" alt="System Architecture" width="1103" height="543" />
 
 
 
 ## Data Flow Diagram
-<img src="https://raw.githubusercontent.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/main/images/Data%20Flow%20Diagram.png" alt="Data Flow Diagram" />
+<img src="https://raw.githubusercontent.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/main/images/Data%20Flow%20Diagram.png" alt="Data Flow Diagram" width="1103" height="543" />
 
 
 # Python Libraries Used
