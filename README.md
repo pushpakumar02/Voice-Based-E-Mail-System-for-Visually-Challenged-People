@@ -237,10 +237,10 @@ Our contributions are summarized as follows:
 4. The SMTP (Simple Mail Transfer Protocol) module is imported using the keyword smtplib. It is used to connect to Gmail and compose emails, acting as a connection to Gmail to perform other functions as well.
 
 ## System Architecture
-<img src="https://github.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/blob/main/images/System%20Architecture.png" />
+<img src="https://raw.githubusercontent.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/blob/main/images/System%20Architecture.png" />
 
 ## Data Flow Diagram
-<img src="https://github.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/blob/main/images/Data%20Flow%20Diagram.png" />
+<img src="https://raw.githubusercontent.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/blob/main/images/Data%20Flow%20Diagram.png" />
 
 # Python Libraries Used
 
@@ -419,7 +419,7 @@ The proposed system aims to make email accessible to visually challenged individ
 The system focuses on providing a seamless experience for all users, ensuring accessibility and usability.
 
 ## Output Screenshot
-<img src="https://github.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/blob/main/images/Output_Screenshot.png" />
+<img src="https://raw.githubusercontent.com/Pushpakumar02/VOICE-BASED-E-MAIL-SYSTEM-FOR-VISUALLY-CHALLENGED-PEOPLE/blob/main/images/Output_Screenshot.png" />
 
 | SR NO. | EXISTING SYSTEM                                 | PROPOSED SYSTEM                                |
 |--------|------------------------------------------------|------------------------------------------------|
